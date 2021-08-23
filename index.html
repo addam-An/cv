@@ -1,0 +1,122 @@
+<!-- 感叹号+SHIFT+tab键 召唤boilerplate 模板，如下 a standard HTML boilerplate code-->
+<!DOCTYPE html>  <!-- 介绍我们现在使用的html版本-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">  <!--以下所有代码用的都是UTF-8 encoding system,该属性规定html文档的字符编码，这个系统是标准系统，不仅含有所有国际字符，还有表情-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fang Shiwan'Personal Site</title>
+</head>
+<body>
+    <table cellspacing="20">            <!--设置表格距离-->
+        <tr>
+            <td><img src="https://n.sinaimg.cn/www/transform/250/w630h420/20190520/9c24-hxhyium4819160.jpg" alt="照片上的人是黑木华">
+            <!--
+                如果浏览器broswer不能显示出图片即链接失效，则显示后面的alt（alternative）对图片的一个文本描述
+                或者使用本地图片
+                <img src="toda.jpg" alt="照片上的人是戸田恵梨香">  注意本地图片所在的位置以及路径
+            -->
+            </td>
+            
+
+            
+            <td>
+                <h1>Fang Shiwan</h1>
+            <!--增加段落paragraph-->
+                <p>
+                    <em>A 
+                        <strong>
+                        <a href="https://education.github.com/pack">student</a>
+                        </strong>
+                    </em>
+                <!--
+                    用em tag代替i tag，i（italicise）仅仅是让这一串字符变成斜体，em（emphasis）在j结构上还有强调的作用
+                    同理，用strong tag 代替 b tag，不仅仅是让字体风格加粗
+                    记住html是的功能是建立框架
+                -->
+                <!--
+                    <a> anchor tag标签定义超链接url，用于从一张页面链接到另一张页面。
+                    <a> 元素最重要的属性是 href 属性，它指示链接的目标。
+                -->
+                </p>
+                <p>I am a student learning web development. I like milk and donut.</p>
+            </td>
+        </tr>
+   </table>
+    <hr>
+  
+    <h3>Education</h3>
+
+    <!--圆点排序-->
+    <ul>
+        <li>The Complete iOS APP Development Bootcamp</li>
+        <li>The Complete Web Development Bootcamp</li>
+    </ul>
+    <!--添加表格 table row\table data-->
+    <hr>
+
+    <h3>Education Experience</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>时间</th>
+                <th>做了什么</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>2010-2013</td>
+                <td>初中</td>
+            </tr>
+            <tr>
+                <td>2013</td>
+                <td>初中毕业</td>
+            </tr>
+        </tbody>
+        <tfoot>
+
+        </tfoot>
+    </table>
+    <!--如果删掉thead 和 tbody 标签，因为用了th 和 td标签，所以删除前后浏览器上显示的内容不变
+        但是我们可能会对表格抬头分类设置，因此最好要写在thead和tbody里
+    -->
+
+    <hr>
+
+    <h3>Skills</h3>
+    <table cellspacing="10">
+        <tr>
+            <td>
+                <table>
+                    <tr>
+                        <td>iOS Development</td>
+                        <td>⭐⭐⭐⭐⭐</td>
+                    </tr>
+                    <tr>
+                        <td>web Development</td>
+                        <td>⭐⭐⭐⭐⭐</td>
+                    </tr>
+            </table>
+            </td>
+            <td>
+                <table>
+                    <tr>
+                    <td>hiking</td>
+                    <td>⭐⭐⭐</td>
+                    </tr>
+                    <tr>
+                        <td>jogging</td>
+                        <td>⭐</td>
+                    </tr>   
+                </table>
+            </td>
+        </tr>
+    </table>
+<!--上述表格迭代结构太复杂了，一般不在html里使用-->
+    <hr>
+    <a href="hobbies.html">My Hobbies</a><br>
+    <a href="contact.html">Contact Me</a>
+
+    
+</body>
+</html>
